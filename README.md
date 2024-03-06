@@ -17,7 +17,7 @@ Energy_production, in MW, net hourly electrical energy output.
 
 RANGES ARE:-
 
- Temperature (T) in the range 1.81°C and 37.11°C,
+Temperature (T) in the range 1.81°C and 37.11°C,
 Ambient Pressure (AP) in the range 992.89-1033.30 milibar,
 Relative Humidity (RH) in the range 25.56% to 100.16%
 Exhaust Vacuum (V) in teh range 25.36-81.56 cm Hg
@@ -38,7 +38,7 @@ MODEL BUILDING:
 Model building is done using mainy  models where the dependent feature is "Energy Production" and model building is done using with outerliers and with-out outerliers. so that some of the models are as follows:-
 1. MULTI LINEAR REGRESSION
 
-  with outerliers                                 without outerliers
+      with outerliers                               without outerliers
 r2:-0.9286960898122536                           r2:- 0.9277425155023922 
 r2_Adj:- 0.9286662648994908                      r2_Adj:- 0.9277118068391973 
 AIC :- 56186.22904743758                         AIC :- 55345.53530507031 
@@ -65,20 +65,23 @@ R-squared Score: 0.778                     R-squared Score: 0.786
 
 5. RANDOM FOREST REGRESSOR
 
-         with outerliers                         without outerliers
+   with outerliers                         without outerliers
 Mean Squared Error: 0.0385                  Mean Squared Error: 0.0362
 R-squared Score: 0.962                     R-squared Score: 0.962
 
 6. DECISION TREE REGRESSOR
 
-           with outerliers                         without outerliers
+   with outerliers                         without outerliers
 Mean Squared Error: 0.0649                  Mean Squared Error: 0.068
 R-squared Score: 0.937                     R-squared Score: 0.93009
+
+
 
 Similarly we did KNN REGRESSOR, BOOSTING TECHNIQUES GRADIENT BOOSTING REGRESSOR,ADABOOST REGRESSOR MODEL,
 XBR REGRESSOR MODEL,BAGGING MODEL BUILDING.
 
-FInally,
+
+Finally,
 
 Random Forest Regressor :-
 
